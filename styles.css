@@ -84,12 +84,12 @@ main , .crossout{
         height: auto;
     }
     .img-box{
-        height:75%;
+        height:100%;
         overflow: hidden;
     }
 
     .header-img{
-        height: 45rem;
+        height: 100;
         border-top-left-radius: 2rem;
         border-bottom-left-radius: 2rem;
     }
