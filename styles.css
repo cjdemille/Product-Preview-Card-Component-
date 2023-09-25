@@ -1,0 +1,110 @@
+
+main{
+    height:100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+main , .crossout{
+
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+.desktop{
+    display:none;
+}
+
+.card{
+    border-radius: 2rem;
+}
+
+.card-img-top{
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.category{
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+}
+
+.card-title, .price{
+    font-family:Fraunces, serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.card-title{
+    color:hsl(212, 21%, 14%);
+}
+.card-text{
+    line-height: 2;
+}
+.price-container{
+    display:flex; 
+    align-items: center;
+}
+.price{
+    color:hsl(158, 36%, 37%);
+}
+.crossout{
+    text-decoration: line-through;
+    margin-left: 2rem;
+}
+
+/* add to cart button */
+
+.btn{
+    padding: 1rem;
+    font-weight: 700;
+    background-color:hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+}
+.btn:hover{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(212, 21%, 14%);
+}
+.btn img{
+    padding-right:1rem;
+}
+
+
+@media screen and (min-width:1400px){
+    .mobile{
+        display:none;
+    }
+    .desktop{
+        display:block;
+    }
+    .main{
+        height:100vh;
+    }
+    .card{
+        max-width:70%;
+        height: auto;
+    }
+    .img-box{
+        height:75%;
+        overflow: hidden;
+    }
+
+    .header-img{
+        height: 45rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+    }
+
+    .card-body{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card-title, .price{
+        font-family:Fraunces, serif;
+        font-weight: 700;
+        font-size: 5rem;
+    }
+  p{
+    font-size: 1.75rem;
+  }
+}
